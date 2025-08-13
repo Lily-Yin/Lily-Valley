@@ -1,4 +1,4 @@
-# Lily-Yin-# 🌸 Olá, eu sou a Lily Yin!  
+# Lily-# 🌸 Olá, eu sou a Lily Yin!  
 
 🎮 Desenvolvedora apaixonada por criar mundos interativos e experiências imersivas, inspiradas em jogos como Stardew Valley.  
 💻 Estudando e desenvolvendo projetos em Python, JavaScript e Game Development.  
