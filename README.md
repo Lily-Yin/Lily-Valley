@@ -2,7 +2,7 @@
 # Lily Valley
 
 ## Descrição
-Lily Valley é um jogo de sobrevivência em Python com Pygame. O jogador controla um personagem azul que deve evitar zumbis vermelhos que se aproximam.
+Lily Valley é um jogo de sobrevivência em Python com Pygame. O jogador controla um personagem azul que deve evitar zumbis que se aproximam.
 
 ## Tecnologias
 - Python 3
