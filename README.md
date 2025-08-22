@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Lily Valley
 
 ## Descrição
@@ -23,3 +24,6 @@ __pycache__/
 *.pyc
 *.pyo
 *.DS_Store
+=======
+
+>>>>>>> 61d6163b46557d383872c623ee9cafbb9281ed78
