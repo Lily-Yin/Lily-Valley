@@ -1,4 +1,20 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
-*.DS_Store
+*.pyd
+*.env
+*.egg-info/
+dist/
+build/
+
+# IDEs e editores
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Pygame/Assets
+*.log

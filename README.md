@@ -1,6 +1,11 @@
 <<<<<<< HEAD
 # Lily Valley
 
+[![Python](https://img.shields.io/badge/python-3.13-blue)](https://www.python.org/)
+[![Build](https://github.com/Lily-Yin/Lily-Valley/actions/workflows/python.yml/badge.svg)](https://github.com/Lily-Yin/Lily-Valley/actions/workflows/python.yml)
+[![Pylint](https://img.shields.io/badge/pylint-8.5-green)](https://www.pylint.org/)
+
+
 ## Descrição
 Lily Valley é um jogo de sobrevivência em Python com Pygame. O jogador controla um personagem azul que deve evitar zumbis que se aproximam.
 
