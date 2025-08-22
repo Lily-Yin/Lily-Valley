@@ -1,50 +1,37 @@
-"""Arquivo principal do Lily-Valley. Aqui roda o jogo e controla o jogador."""
-
-"""Módulo principal do jogo Lily-Valley."""
-
 # pylint: disable=no-member
+"""Arquivo main.py - Código principal do Lily-Valley."""
 
-import sys  # módulos padrão
-import pygame  # terceiros
+import pygame
 
 class Player:
-    """Classe que representa o jogador e seus movimentos."""
+    """Classe que representa o jogador do jogo."""
+    def __init__(self, name):
+        """Inicializa o jogador com um nome."""
+        self.name = name
+        self.score = 0
 
-    def __init__(self):
-        """Inicializa o jogador."""
-        self.x = 0
-        self.y = 0
+    def move(self, direction):
+        """Move o jogador para a direção fornecida ('left', 'right', 'up', 'down')."""
+        print(f"{self.name} move {direction}")
 
-    def move(self, player_keys):
-        """Move o jogador baseado nas teclas pressionadas."""
-        if player_keys[pygame.K_LEFT] or player_keys[pygame.K_a]:
-            self.x -= 5
-        if player_keys[pygame.K_RIGHT] or player_keys[pygame.K_d]:
-            self.x += 5
-        if player_keys[pygame.K_UP] or player_keys[pygame.K_w]:
-            self.y -= 5
 
-class Game:
-    """Classe que controla o loop principal do jogo."""
+def main():
+    """Função principal do jogo."""
+    pygame.init()
+    screen = pygame.display.set_mode((800, 600))
+    pygame.display.set_caption("Lily-Valley")
 
-    def __init__(self):
-        """Inicializa o Pygame e a janela."""
-        pygame.init()
-        self.running = True
-        self.player = Player()
+    player = Player("Lily")
+    running = True
 
-    def run(self):
-        """Loop principal do jogo."""
-        while self.running:
-            for event in pygame.event.get():
-                if event.type == pygame.QUIT:
-                    self.running = False
+    while running:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                running = False
 
-            keys = pygame.key.get_pressed()
-            self.player.move(keys)
+    pygame.quit()
+    print("main.py rodou corretamente! 🎉")
 
-        pygame.quit()
 
 if __name__ == "__main__":
-    game = Game()
-    game.run()
+    main()
