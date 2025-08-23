@@ -1,20 +1,27 @@
-# Python
+# Compilados Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.env
-*.egg-info/
-dist/
-build/
+*.py[cod]
+*$py.class
 
-# IDEs e editores
-.vscode/
-.idea/
+# Ambientes virtuais
+venv/
+env/
+.venv/
+ENV/
 
-# Sistema
+# Configurações locais
+*.log
+*.sqlite3
+*.db
 .DS_Store
 Thumbs.db
 
-# Pygame/Assets
-*.log
+# IDEs
+.vscode/
+.idea/
+
+# Distribuição / pacotes
+build/
+dist/
+*.egg-info/
+.eggs/
