@@ -1,3 +1,4 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/lily-yin/lily-valley/badge)](https://www.codefactor.io/repository/github/lily-yin/lily-valley)
 # Lily-Valley
 
 [![Python](https://img.shields.io/badge/python-3.13-blue)](https://www.python.org/)
